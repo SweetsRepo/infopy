@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "infopy"
+version = "0.1.0"
+description = ""
+authors = ["Chris Sweets <chris.sweet0320@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.16"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+scipy = "^1.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
